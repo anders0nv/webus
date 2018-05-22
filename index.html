@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="theme-color" content="#00BCD4" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="icon" href="images/logo.png">
+    <title>
+        WeBus - Seja bem-vindo(a)
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/material-kit.css?v=2.0.2">
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+<body class="landing-page">
+    <nav class="navbar nav-custom navbar-info navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand">
+                    <img src="images/logo.png" class="d-inline-block align-top logo-navbar" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto" id="one-page-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-1">
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-2">
+                            Nossos serviços
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-3">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="#" class="btn btn-info btn-raised" rel="tooltip" title="" data-placement="bottom" data-original-title="Cadastrar-se no portal WeBus">
+                        Registre-se
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header header-filter" data-parallax="true" style=" background-image: url('images/img3.jpg'); ">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-md-6 col-xs-12">
+                    <h1 class="title">Conheça um novo conceito de mobilidade urbana</h1>
+                    <h4>Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</h4>
+                    <br>
+                    <a href="#!" target="_blank" class="btn btn-info btn-raised btn-lg d-none d-sm-inline">
+                        Registre-se agora
+                    </a>
+                </div>
+                <div class="col-md-4 offset-md-1 col-xs-12">
+                    <div class="card card-nav-tabs pb-5">
+                        <form asp-controller="Client" asp-action="Login" method="post" class="form">
+                            <div class="card-header card-header-info text-center">
+                                <h4 class="">Entrar no WeBus</h4>
+                                <div asp-validation-summary="All"></div>
+                            </div>
+                            <h4 class="description text-center mt-5">Informe suas credenciais</h4>
+                            <div class="card-body pt-0">
+                                <div class="form-group has-info">
+                                    <label asp-for="Email" class="bmd-label-floating">E-mail</label>
+                                    <input asp-for="Email" type="email" class="form-control">
+                                </div>
+                                <div class="form-group has-info">
+                                    <label asp-for="Password" class="bmd-label-floating">Senha</label>
+                                    <input asp-for="Password" type="password" class="form-control">
+                                </div>
+                                <div class="form-check pt-2">
+                                    <label asp-for="RememberMe" class="form-check-label">
+                                        <input asp-for="RememberMe" class="form-check-input" type="checkbox">
+                                        Lembrar minhas credenciais
+                                        <span class="form-check-sign">
+                                            <span class="check has-info"></span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="footer text-center">
+                                <button type="submit" class="btn btn-info btn-wd">Entrar no WeBus</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main main-raised">
+        <div class="container">
+
+            <div class="section text-center" id="section-1">
+                <h2>Quem somos</h2>
+                <h5 class="description pb-3 px-lg-5">
+                    Somos uma startup com foco em mobilidade urbana. Nós ampliamos a visão da mobilidade
+                    urbana fomentando parceria
+                    com a iniciativa privada e
+                    retorno social.
+                </h5>
+                <div class="row pt-lg-5">
+                    <div class="col-md-6">
+                        <img src="images/img3.jpg" class="img-fluid rounded mt-lg-5" />
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="pb-lg-3 mt-lg-0">Nossos objetivos</h2>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="info pt-0">
+                                    <div class="icon icon-info">
+                                        <i class="material-icons">directions_walk</i>
+                                        <i class="material-icons">directions_subway</i>
+                                    </div>
+                                    <h4>Integração</h4>
+                                    <p>Integração entre pedestres, ciclistas e transporte coletivo.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="info pt-0">
+                                    <div class="icon icon-info">
+                                        <i class="material-icons">directions_car</i>
+                                        <i class="material-icons">compare_arrows</i>
+                                    </div>
+                                    <h4>Papéis</h4>
+                                    <p>Carro com o papel secundário na mobilidade.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="info pt-0">
+                                    <div class="icon icon-info">
+                                        <i class="material-icons">attach_money</i>
+                                        <i class="material-icons">business</i>
+                                    </div>
+                                    <h4>Participações</h4>
+                                    <p>Participação da iniciativa privada no fomento de ações.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="info pt-0">
+                                    <div class="icon icon-info">
+                                        <i class="material-icons">important_devices</i>
+                                        <i class="material-icons">directions_bus</i>
+                                    </div>
+                                    <h4>Ações</h4>
+                                    <p>Ações dirigidas de marketing da iniciativa privada priorizando o transporte publico.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section text-center" id="section-2">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2>Nossos serviços</h2>
+                        <h5 class="description">
+                            Ampliamos a visão da mobilidade
+                            urbana fomentando parceria
+                            com a iniciativa privada e
+                            retorno social.
+                        </h5>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-info">
+                                    <i class="material-icons">chat</i>
+                                </div>
+                                <h4 class="info-title">Free Chat</h4>
+                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-success">
+                                    <i class="material-icons">verified_user</i>
+                                </div>
+                                <h4 class="info-title">Verified Users</h4>
+                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-danger">
+                                    <i class="material-icons">fingerprint</i>
+                                </div>
+                                <h4 class="info-title">Fingerprint</h4>
+                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-contacts" id="section-3">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="text-center">Fale conosco</h2>
+                        <h4 class="text-center description">Está com dúvidas sobre nossos serviços ou nossa empresa? Contate-nos! Entraremos em contato o mais rápido possível ;)</h4>
+                        <form class="contact-form pt-lg-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group has-info">
+                                        <label class="bmd-label-floating">Nome</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-info">
+                                        <label class="bmd-label-floating">E-mail</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group has-info">
+                                <label for="Mensagem" class="bmd-label-floating">Mensagem</label>
+                                <textarea type="text" class="form-control" rows="4" id="Mensagem"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 ml-auto mr-auto text-center">
+                                    <button type="button" class="btn btn-info btn-raised">
+                                        Enviar Mensagem
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="#" class="text-dark">
+                            Link
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">
+                            Link
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">
+                            Link
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">
+                            Link
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright pull-right">
+                Copyright
+                &copy;
+                WeBus
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> | Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-material-design.js"></script>
+    <script src="js/material-kit.js?v=2.0.2"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

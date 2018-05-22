@@ -1,0 +1,52 @@
+﻿@media (max-width: 830px) {
+    .main-raised {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        margin-top: 100%;
+    }
+
+    .page-header {
+        height: 100%;
+    }
+
+    .row-header {
+        margin-top: 40%;
+    }
+}
+
+.logo-navbar {
+    width: 155px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    border-top: 3px solid #00bcd4;
+}
+
+    .navbar .navbar-toggler .navbar-toggler-icon {
+        background-color: #00bcd4;
+    }
+
+.form-check .form-check-input:checked + .form-check-sign .check {
+    background: #00bcd4;
+}
+
+.logo-navabsolute {
+    position: absolute;
+    top: 0;
+    width: 140px;
+    height: 70px;
+}
+
+.error {
+    color: #f44336 !important;
+    font-size: .8rem !important;
+}
+
+.success {
+    color: #4caf50 !important;
+    font-size: .8rem !important;
+}
+
